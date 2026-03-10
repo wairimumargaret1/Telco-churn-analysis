@@ -8,3 +8,23 @@ The company is losing $1.2 million every month ($37.9M total), primarily driven 
 Most churn comes from Fiber Optic users on Month-to-Month plans who pay by Electronic Check.
 
 The company should offer a small discount to move customers to Auto-pay and 1 or 2-year contracts.
+
+Technical Workflow
+
+* Data Cleaning: Utilized Power Query to identify and handle missing values, filtering out "unknown" entries which accounted for only 0.9% of the dataset to ensure analysis accuracy.
+
+*  Quantitative Analysis: * Calculated total revenue loss using SUMIF functions.
+
+    * Determined churn and retention rates using COUNTIF and COUNTA.
+
+* Advanced Data Modeling
+
+    * Segmented customer tenure into specific categories using nested IFS logic.
+
+    * Deployed Dynamic Arrays (UNIQUE) to generate automated lists of Internet Services.
+
+    * Implemented XLOOKUP to create a dynamic retrieval system for customer-specific charges.
+
+* Data Integrity: Standardized all Customer ID entries via Data Validation to prevent manual entry errors.
+
+* Strategic Output: Developed a High-Risk Customer Profile.
